@@ -1,0 +1,2 @@
+cat '$diary.txt'
+cat :~∕
