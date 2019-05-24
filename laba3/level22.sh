@@ -1,7 +1,5 @@
-x=1
-while [ $x -lt 1000 ]
-do
-touch $x.txt
-x=$(( $x + 1 ))
-done
-ls -a
+#!/bin/bash
+bash
+for i in {1..999}; do touch ${i}.txt; done
+exit
+ls -all
